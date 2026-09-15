@@ -1,0 +1,48 @@
+.ediromWindow .annotation .annotIcon {
+    width: 20px;
+    height: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    margin: 3px auto;
+}
+
+.ediromWindow .annotation .annotIcon.AnnotPrio1 {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 48, 25, 0.9),
+        rgba(207, 4, 4, 0.9)
+    );
+}
+
+.ediromWindow .annotation .annotIcon.AnnotPrio2 {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 233, 91, 0.9),
+        rgba(255, 107, 15, 0.9)
+    );
+}
+
+.ediromWindow .annotation .annotIcon.AnnotPrio3 {
+    background: linear-gradient(
+        to bottom,
+        rgba(254, 252, 234, 0.9),
+        rgba(241, 218, 54, 0.9)
+    );
+}
+
+.ediromWindow .annotation .annotIcon.AnnotPrio4 {
+    background: linear-gradient(
+        to bottom,
+        rgba(130, 210, 255, 0.9),
+        rgba(20, 120, 190, 0.9)
+    );
+}
+
+.ediromWindow .annotation .annotIcon.AnnotPrio5 {
+    background: linear-gradient(
+        to bottom,
+        rgba(190, 150, 255, 0.9),
+        rgba(100, 50, 180, 0.9)
+    );
+}
